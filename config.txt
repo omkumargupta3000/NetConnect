@@ -1,0 +1,14 @@
+# NetConnect server configuration
+# Lines starting with '#' are comments. Format: key=value
+
+# TCP port the server listens on
+port=54000
+
+# Maximum number of simultaneously connected clients
+max_clients=100
+
+# Path to the server's log file (created automatically if missing)
+log_path=logs/server.log
+
+# Display name shown to clients on connect
+server_name=NetConnect Server
